@@ -272,6 +272,50 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "update customer name",
+			"id": "5ed4522b-7cef-4407-a55b-aeb74ef5e37d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "efa83d8eefdd512f502547ad45c09dbd29a3dd5d4b0a58a2052a899ec5ed7ed7"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerName\": \"Dana Scott\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/orders/:orderId",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"orders",
+						":orderId"
+					],
+					"variable": [
+						{
+							"id": "319e9560-ec19-434f-845c-b17a659bd1d3",
+							"key": "orderId",
+							"value": "ZUin1CXRmZodDXhfGuF6i"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -298,12 +342,12 @@
 	],
 	"variable": [
 		{
-			"id": "17b3a2d6-6603-47f6-bc28-da6abc97f439",
+			"id": "d20ae900-fc29-46be-8c2f-d67f7b1e1a95",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		},
 		{
-			"id": "0d23cf91-02de-4829-b2ea-9e49ed2a4875",
+			"id": "1c9f996c-9656-41fd-911a-c7fcbfd965b6",
 			"key": "accessToken",
 			"value": "---",
 			"type": "string"
