@@ -272,19 +272,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "remove user",
-			"id": "83c3db36-20f4-4420-b141-58c3f9832567",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": "{{reqresBase}}/api/users/3"
-			},
-			"response": []
 		}
 	],
 	"event": [
@@ -311,12 +298,12 @@
 	],
 	"variable": [
 		{
-			"id": "74fdccdd-1a4f-4f16-ad30-3dcb34eb4287",
+			"id": "039f3a22-4ca8-490f-8d4c-ebf0125ce344",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		},
 		{
-			"id": "91d5e182-678b-4eea-84e2-40e118bc561c",
+			"id": "3543d893-62e7-44ad-9fa7-5a42125503cc",
 			"key": "accessToken",
 			"value": "---",
 			"type": "string"
