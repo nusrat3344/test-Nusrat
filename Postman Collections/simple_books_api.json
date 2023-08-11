@@ -272,19 +272,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "create books",
-			"id": "940b8785-dfac-4987-acf0-21a618ff7dba",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": "{{baseURL}}/books"
-			},
-			"response": []
 		}
 	],
 	"event": [
@@ -311,12 +298,12 @@
 	],
 	"variable": [
 		{
-			"id": "caf62a07-16c5-433c-aa59-7c057a4032d9",
+			"id": "17b3a2d6-6603-47f6-bc28-da6abc97f439",
 			"key": "baseURL",
 			"value": "https://simple-books-api.glitch.me"
 		},
 		{
-			"id": "c07dbd96-33a5-4af2-b41a-8950f9523b67",
+			"id": "0d23cf91-02de-4829-b2ea-9e49ed2a4875",
 			"key": "accessToken",
 			"value": "---",
 			"type": "string"
