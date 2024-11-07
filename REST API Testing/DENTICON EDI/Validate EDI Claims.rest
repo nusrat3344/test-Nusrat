@@ -1,0 +1,9 @@
+///Validate EDI Claims
+
+POST https://dev-api.denticon.com/edi/api/v0.1/ValidateClaim/Validate 
+Host: dev-api.denticon.com
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: <Enter Key Value here>
+
+{"pgid":4051,"userId":"NUSRATUSER44051","claimValidationDto":[{"patId":8530,"claimId":"7016548","claimUid":"87344","claimType":"P","doValidation":true,"doProcessingForView":true,"isDxcAttachReq":""},
+{"patId":8595,"claimId":"7016576","claimUid":"87374","claimType":"P","doValidation":true,"doProcessingForView":true,"isDxcAttachReq":""}]}
